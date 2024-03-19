@@ -8,5 +8,7 @@ test('Fizz buzz says:', () => {
     expect(fizzBuzz(2)).toBe(2);
 });
 
-
+test('Fizz buzz says:', () => {
+    expect(fizzBuzz(3)).toBe("Fizz");
+});
 //
