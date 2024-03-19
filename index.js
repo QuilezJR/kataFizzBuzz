@@ -1,4 +1,4 @@
-function fizzBuzz(){
-    return 1
+function fizzBuzz(number){
+    return number
 }
 module.exports = fizzBuzz;
