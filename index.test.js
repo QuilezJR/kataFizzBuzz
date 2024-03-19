@@ -27,4 +27,8 @@ test('Fizz buzz says:', () => {
 test('Fizz buzz says:', () => {
     expect(fizzBuzz(15)).toBe("FizzBuzz");
 });
+
+test('Fizz buzz says:', () => {
+    expect(fizzBuzz(30)).toBe("FizzBuzz");
+});
 //
