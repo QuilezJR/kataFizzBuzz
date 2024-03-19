@@ -1,5 +1,7 @@
 const fizzBuzz = require('./index');
 
-test('does nothing with no argument', () => {
-    expect(fizzBuzz()).toBe();
-  });
+test('Fizz buzz says:', () => {
+    expect(fizzBuzz()).toBe(1);
+});
+
+//
