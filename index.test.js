@@ -23,4 +23,8 @@ test('Fizz buzz says:', () => {
 test('Fizz buzz says:', () => {
     expect(fizzBuzz(10)).toBe("Buzz");
 });
+
+test('Fizz buzz says:', () => {
+    expect(fizzBuzz(15)).toBe("FizzBuzz");
+});
 //
